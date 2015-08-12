@@ -27,6 +27,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/potato', {
+        templateUrl: 'views/potato.html',
+        controller: 'PotatoCtrl',
+        controllerAs: 'potato'
+      })
       .otherwise({
         redirectTo: '/'
       });
