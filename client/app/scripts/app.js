@@ -32,6 +32,16 @@ angular
         controller: 'PotatoCtrl',
         controllerAs: 'potato'
       })
+      .when('/club', {
+        templateUrl: 'views/club.html',
+        controller: 'ClubCtrl',
+        controllerAs: 'club'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
+      })
       .otherwise({
         redirectTo: '/'
       });
