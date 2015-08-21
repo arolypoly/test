@@ -67,18 +67,20 @@ body {
 /* Splash picture on main page */
 .splash {
   margin: 0 auto;
-  width: 50%;
-  border: 3px solid #FFCA28;
-  /* padding: 10px; */
+  width: 0 auto;
+  /*border: 3px solid #FFCA28;*/
   text-align: center;
+  font-family: monospace;
+  font-size: 4em;
 }
 
-/* Main page body */
+/* Main page header */
 .main-header1 {
   margin: 0 auto;
   width: 80%;
   text-align: left;
-  text-decoration: underline;
+  font-family: monospace;
+  font-size: 1em;
 }
 
 /* "Club" page */
