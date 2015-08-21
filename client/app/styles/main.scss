@@ -64,11 +64,19 @@ body {
   }
 }
 
-/*Splash picture on main page*/
+/* Splash picture on main page */
 .splash {
   margin: 0 auto;
   width: 50%;
-  border: 3px solid #FFC107;
+  border: 3px solid #FFCA28;
   padding: 10px;
   text-align: center;
+}
+
+/* "Club" page */
+.penguins {
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("http://images.wikia.com/clubpenguin/images/5/55/Custom_made_white_penguin.png");
+  background-size: contain;
 }
