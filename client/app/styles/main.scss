@@ -62,8 +62,13 @@ body {
   .header {
     margin-bottom: 30px;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+}
+
+/*Splash picture on main page*/
+.splash {
+  margin: 0 auto;
+  width: 50%;
+  border: 3px solid #FFC107;
+  padding: 10px;
+  text-align: center;
 }
